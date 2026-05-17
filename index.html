@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREEN API TEST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="left-panel">
+
+            <input type="text" id="idInstance" placeholder="idInstance">
+
+            <input type="text" id="apiToken" placeholder="ApiTokenInstance">
+
+            <button id="getSettingsBtn">getSettings</button>
+
+            <button id="getStateBtn">getStateInstance</button>
+
+            <input type="text" id="phoneNumber" placeholder="7010000000">
+
+            <textarea id="message" placeholder="Введите сообщение"></textarea>
+
+            <button id="sendMessageBtn">sendMessage</button>
+
+            <input type="text" id="fileUrl" placeholder="Ссылка на файл">
+
+            <button id="sendFileBtn">sendFileByUrl</button>
+
+        </div>
+
+        <div class="right-panel">
+
+            <textarea id="response" readonly></textarea>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
